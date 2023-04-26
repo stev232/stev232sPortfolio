@@ -1,63 +1,47 @@
 import React from 'react';
 import '../styles/Section.css';
 
-// By importing the Section.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
-
 const styles = {
   sectionStyles: {
-    background: 'orange',
+    background: 'Grey',
   },
 };
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Section() {
   return (
     <section style={styles.sectionStyles} className="section">
-      <h2>Lorem Ipsum Dolor Sit Amet</h2>
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?
+      <h2>About Me</h2>
+      <p> 
+        My name is Stephen (Stee-v-en) Merki (Mur-key). I am currently enrolled in University Wisconsin Coding Bootcamp. I have two associates degrees; Network Administration, Network and Software Support. I have one year professional experience working in web development.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Programming languages that I know are HTML, CSS, PHP, JavaScript (DOM), Java, and C++. 
       </p>
+      <h2>Portfolio</h2>
+      <h3>Prework Study Guide</h3>
+      <a href="https://stev232.github.io/prework-study-guide/" target="_blank"><img src="./assets/images/preworkStudy.PNG" alt="Screenshot of prework study guide website" class="screenShot" id="imgPreworkSG" /></a>
       <p>
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui
-        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-        et quas molestias excepturi sint occaecati cupiditate non provident,
-        similique sunt in culpa qui officia deserunt mollitia animi, id est
-        laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-        distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-        quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
-        ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
-        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-        voluptatibus maiores alias consequatur aut perferendis doloribus
-        asperiores repellat.
+        The prework study guide was used to help get me ready for the semester. It was built using primarily HTML and CSS with a little bit of JavaScript. The prework study guide taught me how to work with the git bash terminal and upload to github.
+      </p>
+      <h3>Horiseon</h3>
+      <a href="https://stev232.github.io/Horiseon/" target="_blank"><img src="./assets/images/horiseon.PNG" alt="Screenshot of first project with website name of Horiseon" class="screenShot" id="imgHoriseon" /></a>
+      <p>
+        Horiseon is the first project that we were given in class and it is an exercise in making an already built webpage more accessible.
+      </p>
+      <h3>Stev232's Password Generator</h3>
+      <a href="https://stev232.github.io/Stev232sPasswordGenerator/" target="_blank"><img src="./assets/images/passwordGen.PNG" alt="Screenshot of second project with website name of Stev232s Password Generator" class="screenShot" id="imgPasswordGen" /></a>
+      <p>
+        My password generator was the first project utilizing javascript for the class.
+      </p>
+      <h3>Stev232's Code Quiz</h3>
+      <a href="https://stev232.github.io/Stev232sCodeQuiz/" target="_blank"><img src="./assets/images/codeQuiz.PNG" alt="Screenshot of second project with website name of Stev232s Password Generator" class="screenShot" id="imgCodeQuiz" /></a>
+      <p>
+        My code quiz features saving data locally with javascript.
+      </p>
+      <h3>Stev232's Color Grid</h3>
+      <a href="https://stev232.github.io/Stev232sColorGrid/" target="_blank"><img src="./assets/images/colorGrid.PNG" alt="Screenshot of second project with website name of Stev232s Password Generator" class="screenShot" id="imgColorGrid" /></a>
+      <p>
+        This project does not work on mobile. For the page layout I used <a href="https://getbootstrap.com/">bootstrap</a> to set the grid. My color grid project is a demonstration of using an array in javascript along with two event listeners. Those listeners are looking for the mouseover event and the click event.
       </p>
     </section>
   );
