@@ -1,10 +1,18 @@
 import React from "react";
-// We import our HelloDiv from the components folder
-import HelloDiv from "./components/HelloDiv";
+import Header from "./components/Header";
+import Section from "./components/Section";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-// App is our top-level main component that references other components
 function App() {
-  return <HelloDiv />;
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <Section />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
