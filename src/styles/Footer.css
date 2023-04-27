@@ -1,12 +1,13 @@
-.header {
-  background: #b71775;
-  height: 200px;
+.footer {
+  display: flex;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
+.footer p {
+  margin: 0%;
+  padding: 0%;
+  color: black;
+  font-size: 20px;
 }

@@ -3,7 +3,7 @@ import '../styles/Section.css';
 
 const styles = {
   sectionStyles: {
-    background: 'Grey',
+    background: '#c0c0c0',
   },
 };
 

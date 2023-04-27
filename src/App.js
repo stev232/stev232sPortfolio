@@ -6,12 +6,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Section />
-      <Footer />
-    </div>
+      <div>
+        { document.body.style = 'background: black;' }
+        <Navbar />
+        <Header />
+        <Section />
+        <Footer />
+      </div>
   );
 }
 
