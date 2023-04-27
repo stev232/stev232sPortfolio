@@ -3,7 +3,7 @@ import '../styles/Navbar.css';
 
 const styles = {
   navbarStyle: {
-    background: 'green',
+    background: '#00b3b3',
     justifyContent: 'flex-end',
   },
 };
