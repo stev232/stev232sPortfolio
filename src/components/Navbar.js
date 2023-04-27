@@ -4,7 +4,6 @@ import '../styles/Navbar.css';
 const styles = {
   navbarStyle: {
     background: '#00b3b3',
-    justifyContent: 'flex-end',
   },
 };
 
