@@ -16,19 +16,21 @@
 }
 
 .section h3 {
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: 5px;
+  font-size: 24px;
+  margin-left: 2%;
   width: fit-content;
 }
 
 .section p {
+  font-size: 20px;
   margin: 0px;
+  margin-left: 2%;
   margin-top: 5px;
   padding: 0px;
 }
 
 .section img {
+  margin-left: 2%;
   width: 45%;
 }
 

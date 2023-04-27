@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Section.css';
+
 const images = {
   "stephenMerki": require('../images/stephen.jpg'),
   "preWork": require('../images/preworkStudy.PNG'),
@@ -25,7 +26,7 @@ const styles = {
 function Section() {
   return (
     <section style={styles.sectionStyles} className="section">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <img src={images["stephenMerki"]} style={ styles.marginTopStyles } alt="A picture of myself." className="profilePicture" id="imgMyself" />
       <p> 
         My name is Stephen (Stee-v-en) Merki (Mur-key). I am currently enrolled in University Wisconsin Coding Bootcamp. I have two associates degrees; Network Administration, Network and Software Support. I have one year professional experience working in web development.
@@ -33,7 +34,7 @@ function Section() {
       <p style={{...styles.bottomBorderStyles, ...styles.marginTopStyles}}>
         Programming languages that I know are HTML, CSS, PHP, JavaScript (DOM), Java, and C++. 
       </p>
-      <h2>Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
       <h3>Prework Study Guide</h3>
       <a href="https://stev232.github.io/prework-study-guide/" target="_blank"><img src={images["preWork"]} alt="Screenshot of prework study guide website" className="screenShot" id="imgPreworkSG" /></a>
       <p style={styles.bottomBorderStyles}>
@@ -59,6 +60,8 @@ function Section() {
       <p style={styles.bottomBorderStyles}>
         This project does not work on mobile. For the page layout I used <a href="https://getbootstrap.com/">bootstrap</a> to set the grid. My color grid project is a demonstration of using an array in javascript along with two event listeners. Those listeners are looking for the mouseover event and the click event.
       </p>
+      <h2 id="contact">Contact Me</h2>
+      <p>Email: <a href="mailto:stephen.merki232@gmail.com">stephen.merki232@gmail.com</a></p>
     </section>
   );
 }
