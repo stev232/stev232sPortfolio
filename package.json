@@ -1,5 +1,6 @@
 {
   "name": "stev232-porfolio",
+  "homepage": "https://stev232.github.io/stev232sPortfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://stev232.github.io/stev232sPortfolio/"
+  }
 }
