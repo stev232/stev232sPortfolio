@@ -1,5 +1,18 @@
 import React from 'react';
+import file from '../files/Resume.docx';
 import '../styles/Section.css';
+
+const fileDownload = () => {
+  fetch(file).then((response) => {
+    response.blob().then((blob) => {
+      let url = window.URL.createObjectURL(blob);
+      let a = document.createElement("a");
+      a.href = url;
+      a.download = "Resume.docx";
+      a.click();
+    });
+  });
+}
 
 const images = {
   "stephenMerki": require('../images/stephen.jpg'),
@@ -23,7 +36,7 @@ const styles = {
   },
 };
 
-function Section() {
+function Section() { 
   return (
     <section style={styles.sectionStyles} className="section">
       <h2 id="about">About Me</h2>
@@ -57,11 +70,15 @@ function Section() {
       </p>
       <h3>Stev232's Color Grid</h3>
       <a href="https://stev232.github.io/Stev232sColorGrid/" target="_blank"><img src={images["colorGrid"]} alt="Screenshot of second project with website name of Stev232s Password Generator" className="screenShot" id="imgColorGrid" /></a>
-      <p style={styles.bottomBorderStyles}>
+      <p>
         This project does not work on mobile. For the page layout I used <a href="https://getbootstrap.com/">bootstrap</a> to set the grid. My color grid project is a demonstration of using an array in javascript along with two event listeners. Those listeners are looking for the mouseover event and the click event.
       </p>
       <h2 id="contact">Contact Me</h2>
       <p>Email: <a href="mailto:stephen.merki232@gmail.com">stephen.merki232@gmail.com</a></p>
+      <h2 id="resume">Resume</h2>
+      <div className="btnDiv">
+        <button onClick={fileDownload}>Dowload Resume</button>
+      </div>
     </section>
   );
 }

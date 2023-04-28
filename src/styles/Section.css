@@ -37,3 +37,9 @@
 .section #imgMyself {
   width: 25%
 }
+
+.btnDiv {
+  margin-left: 2%;
+  margin-top: 5px;
+  font-size: 20;
+}
