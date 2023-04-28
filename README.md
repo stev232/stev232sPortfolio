@@ -42,6 +42,10 @@ A single Project component that will be used multiple times in the Portfolio sec
 
 A single Footer component that appears on multiple pages
 
+## Screenshot
+
+![plot](./src/images/homePage.PNG)
+
 ## Deployement Link
 
 https://stev232.github.io/stev232sPortfolio/
