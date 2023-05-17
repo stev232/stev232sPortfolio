@@ -23,6 +23,7 @@ const images = {
   "dayPlanner": require("../images/dayPlanner.PNG"),
   "weatherSite": require("../images/weatherSite.PNG"),
   "colorGrid": require("../images/colorGrid.PNG"),
+  "mearnMarketPlace": require("../images/mearnMarketPlace.PNG"),
 };
 
 const styles = {
@@ -124,11 +125,11 @@ function Section() {
       <p>
         <a href="https://stev232.github.io/Stev232sColorGrid/" target="_blank" rel="noreferrer">Color Grid Link</a>
       </p>
-      <p>
+      <p style={styles.bottomBorderStyles}>
         <a href="https://github.com/stev232/Stev232sColorGrid" target="_blank" rel="noreferrer">Github Repository Link</a>
       </p>
       <h3>MERN Marketplace</h3>
-      <a href="https://pacific-dawn-34240.herokuapp.com/" target="_blank" rel="noreferrer"><img src={images["colorGrid"]} alt="Screenshot of my personal project with website name of Stev232s ColorGrid" className="screenShot" id="imgColorGrid" /></a>
+      <a href="https://pacific-dawn-34240.herokuapp.com/" target="_blank" rel="noreferrer"><img src={images["mearnMarketPlace"]} alt="Screenshot of my personal project with website name of Stev232s ColorGrid" className="screenShot" id="imgColorGrid" /></a>
       <p>
         This project uses MERN.
       </p>
