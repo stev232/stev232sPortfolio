@@ -127,6 +127,17 @@ function Section() {
       <p>
         <a href="https://github.com/stev232/Stev232sColorGrid" target="_blank" rel="noreferrer">Github Repository Link</a>
       </p>
+      <h3>MERN Marketplace</h3>
+      <a href="https://pacific-dawn-34240.herokuapp.com/" target="_blank" rel="noreferrer"><img src={images["colorGrid"]} alt="Screenshot of my personal project with website name of Stev232s ColorGrid" className="screenShot" id="imgColorGrid" /></a>
+      <p>
+        This project uses MERN.
+      </p>
+      <p>
+        <a href="https://pacific-dawn-34240.herokuapp.com/" target="_blank" rel="noreferrer">MERN Marketplace Link</a>
+      </p>
+      <p>
+        <a href="https://github.com/gpkarlsson/E_commerce_Placeholder" target="_blank" rel="noreferrer">Github Repository Link</a>
+      </p>
       <h2 id="contact">Contact Me</h2>
       <p>Email: <a href="mailto:stephen.merki232@gmail.com">stephen.merki232@gmail.com</a></p>
       <h2 id="resume">Resume</h2>
