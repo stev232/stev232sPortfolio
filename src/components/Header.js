@@ -4,9 +4,11 @@ import '../styles/Header.css';
 const styles = {
   headerStyle: {
     background: '#00b3b3',
+    height: 'auto',
+    padding: '5px'
   },
   headingStyle: {
-    fontSize: '64px',
+    fontSize: '3.5em',
   },
 };
 
