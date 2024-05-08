@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stev232sPortfolio/static/css/main.2b27addb.css",
+    "main.js": "/stev232sPortfolio/static/js/main.697e359e.js",
+    "static/media/mearnMarketPlace.PNG": "/stev232sPortfolio/static/media/mearnMarketPlace.d3b6251620cadd690a56.PNG",
+    "static/media/horiseon.PNG": "/stev232sPortfolio/static/media/horiseon.19cad64fa6f943ec5923.PNG",
+    "static/media/stephen.jpg": "/stev232sPortfolio/static/media/stephen.381630b87a57472df54b.jpg",
+    "static/media/preworkStudy.PNG": "/stev232sPortfolio/static/media/preworkStudy.b1d8255f82c01ceac32f.PNG",
+    "static/media/weatherSite.PNG": "/stev232sPortfolio/static/media/weatherSite.06d08216d2cfc2dc7b55.PNG",
+    "static/media/colorGrid.PNG": "/stev232sPortfolio/static/media/colorGrid.f95bcfb52511e6f85d67.PNG",
+    "static/media/codeQuiz.PNG": "/stev232sPortfolio/static/media/codeQuiz.feae0da88ea5ee289bdd.PNG",
+    "static/media/dayPlanner.PNG": "/stev232sPortfolio/static/media/dayPlanner.dc94f7715d4664ad69ab.PNG",
+    "static/media/passwordGen.PNG": "/stev232sPortfolio/static/media/passwordGen.cae0707f49854f0b7062.PNG",
+    "static/media/Resume.docx": "/stev232sPortfolio/static/media/Resume.bc1119d621e3e71d8017.docx",
+    "index.html": "/stev232sPortfolio/index.html",
+    "main.2b27addb.css.map": "/stev232sPortfolio/static/css/main.2b27addb.css.map",
+    "main.697e359e.js.map": "/stev232sPortfolio/static/js/main.697e359e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b27addb.css",
+    "static/js/main.697e359e.js"
+  ]
+}
