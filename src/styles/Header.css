@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+}
+
+.header h1 {
+  align-self: center;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 32;
+}
